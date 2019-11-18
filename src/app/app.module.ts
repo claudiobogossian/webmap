@@ -70,6 +70,8 @@ import * as _ from 'lodash';
 import 'gridstack';
 
 import * as gridstack from 'gridstack';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -117,6 +119,7 @@ import * as gridstack from 'gridstack';
         SharedModule
       ]
     }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [
     UserProviderService,
