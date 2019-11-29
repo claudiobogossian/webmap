@@ -23,8 +23,8 @@ import moment from 'moment'
   styleUrls: ["./layer-filter.component.css"]
 })
 export class LayerFilterComponent implements OnInit {
-  startDateValue = new Date(2016, 0, 1);
-  endDateValue = new Date(2016, 0, 1);
+  startDateValue;
+  endDateValue;
 
   minDate = new Date(2016, 0, 1);
   maxDate = new Date(2018, 0, 1);
@@ -110,9 +110,12 @@ export class LayerFilterComponent implements OnInit {
     const initialDate = this.startDateValue
     const finalDate = this.endDateValue
 
+    const initialDateTemplate = initialDate ? `${moment(initialDate).format('YYYY-MM-DD')}/` : ''
+    const finalDateTemplate = finalDate ? `${moment(initialDate).format('YYYY-MM-DD')}` : ''
+
     // TODO: Verificar quando a data for null, ou se a data é só ano por exemplo...
     // Acho que o geoserver funciona de qualquer forma...
-    const time = `${moment(initialDate).format('YYYY-MM-DD')}/${moment(finalDate).format('YYYY-MM-DD')}`
+    const time = `${initialDateTemplate}${finalDateTemplate}`
     return { time, initialDate, finalDate }
   }
 
@@ -134,7 +137,7 @@ export class LayerFilterComponent implements OnInit {
       time
     } as fromLayerFilterReducer.Filter;
 
-    this.dispatchFilterActionToStore(currentLayerFilterObject)
+    if(initialDate || finalDate) this.dispatchFilterActionToStore(currentLayerFilterObject)
     this.closeDialog()
   }
 }

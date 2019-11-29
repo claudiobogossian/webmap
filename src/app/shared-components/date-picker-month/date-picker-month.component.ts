@@ -53,12 +53,21 @@ export const MY_FORMATS = {
     { provide: MAT_DATE_FORMATS, useValue: MY_FORMATS }
   ]
 })
+
 export class DatePickerMonthComponent {
-  date = new FormControl(moment())
+  date = new FormControl()
   @Output() setDateOutput = new EventEmitter()
-  
+
   @Input() minDate: Date
-  @Input() maxDate: Date  
+  @Input() maxDate: Date
+
+  constructor() {
+    this.sendDataToParent(moment().toDate())
+  }
+
+  sendDataToParent (dateValue: Date) {
+    this.setDateOutput.emit(dateValue)
+  }
 
   chosenYearHandler (normalizedYear: Moment) {
     const ctrlValue = this.date.value
@@ -73,7 +82,7 @@ export class DatePickerMonthComponent {
     const ctrlValue = this.date.value
     ctrlValue.month(normalizedMonth.month())
     this.date.setValue(ctrlValue)
-    this.setDateOutput.emit(normalizedMonth.toDate())
+    this.sendDataToParent(normalizedMonth.toDate())
     datepicker.close()
   }
 }
