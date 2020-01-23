@@ -1,0 +1,190 @@
+{
+  "app": {
+    "title": "Terrabrasilis",
+    "label": "Cerrado",
+    "deforestation": "PRODES (Deforestation)",
+    "alerts": "DETER (Notices)",
+    "text": "TerraBrasilis is a platform developed by INPE for the organization, access and use through a web portal of the geographic data produced by its environmental monitoring programs"
+  },
+  "capabilitydialog": {
+      "title": "WMS Capabilities search",
+      "capabilitiesFailure" : "Failure on request, review your URL and try again.",
+      "capabilitiesError" : "Failure on parse the server response. Detail:",
+      "source" : "Data Source",
+      "filter" : "Filter",
+      "table" : {
+          "name":"Name",
+          "title":"Title",
+          "metadata":"Metadata",
+          "addlayer":"Add to map"
+      }
+  },
+  "dialog": {
+    "text": "General Informations",
+    "accessDataBtn" : "Data access",
+    "downloadBtn" : "Download",
+    "metadataBtn" : "Metadata",
+    "disclaimer1" : "Warning, this is a preliminary data.",
+    "disclaimer2" : "The final data will be consolidated after the completion of the mappings foreseen for the years that compose the historical series from 2004 to 2018.",
+    "disclaimer3" : "Pay attention to the information described",
+    "disclaimer4" : "in the layer metadata"
+  },
+  "menu": {
+    "analyses": {
+      "name": "Graphs",
+      "option1": "PRODES (Deforestation)",
+      "option2": "DETER (Notices)",
+      "option3": "Land User and Land Cover",
+      "option4": "Amazon Desforestation",
+      "option5": "Amazon Notices"
+    },
+    "about": "About",
+    "contact": "Contact",
+    "help": "Help",
+    "login": "Login",
+    "map": {
+      "name": "Maps",
+      "option1": "PRODES (Deforestation)",
+      "option2": "DETER (Notices)"
+    }
+  },
+  "layerControl": {
+    "baselayer" : {
+        "warning" : "These images were not used for deforestation mapping"
+    },
+    "control1": "Baselayers",
+    "5c40fe3a0e9b2a14264e03a7": {
+      "name": " Cerrado",
+      "5c49f7391a21020001cd663e5c40fe3a0e9b2a14264e03a7": "States",
+      "5c49f7791a21020001cd66405c40fe3a0e9b2a14264e03a7": "Biome Border",
+      "5c49f78e1a21020001cd66415c40fe3a0e9b2a14264e03a7": "Counties",
+      "5c5dc500c4267d00012843245c40fe3a0e9b2a14264e03a7": "Image Mosaic - 2000/2019",
+      "5c65c03fc4267d00012843255c40fe3a0e9b2a14264e03a7": "Yearly Deforestation - 2000/2018"
+    },
+    "5c40fdce0e9b2a14264e03a6": {
+      "name": " Legal Amazon",
+      "5c49f5901a21020001cd66375c40fdce0e9b2a14264e03a6": "Forest - 2016/2018",
+      "5c49f5bc1a21020001cd66385c40fdce0e9b2a14264e03a6": "Yearly Deforestation - 2008/2018",
+      "5c49f5df1a21020001cd66395c40fdce0e9b2a14264e03a6": "Deforestation Mask - 1988/2007",
+      "5c49f61b1a21020001cd663a5c40fdce0e9b2a14264e03a6": "Hydrography",
+      "5c49f6761a21020001cd663b5c40fdce0e9b2a14264e03a6": "No Forest",
+      "5c49f6a51a21020001cd663c5c40fdce0e9b2a14264e03a6": "Cloud - 2016/2018",
+      "5c49f6ba1a21020001cd663d5c40fdce0e9b2a14264e03a6": "Legal Amazon",
+      "5c9a55b1c88eaf000187b0435c40fdce0e9b2a14264e03a6": "Image Mosaic - 2000/2018"
+    },
+    "5c9bd04ae2e106099a3fd5ee": {
+      "name": " Amazon",
+      "5c9bce7b6d9f9d00010068c35c9bd04ae2e106099a3fd5ee": "Forest - 2016/2018",
+      "5c9bcc136d9f9d00010068c05c9bd04ae2e106099a3fd5ee": "Deforestation Mask - 1988/2007",
+      "5c9bcf646d9f9d00010068c65c9bd04ae2e106099a3fd5ee": "Yearly Deforestation - 2008/2018",
+      "5c9bceb06d9f9d00010068c45c9bd04ae2e106099a3fd5ee": "Hydrography",
+      "5c9bcef16d9f9d00010068c55c9bd04ae2e106099a3fd5ee": "No Forest",
+      "5c9bcdfb6d9f9d00010068c25c9bd04ae2e106099a3fd5ee": "Cloud - 2016/2018",
+      "5c9bcd576d9f9d00010068c15c9bd04ae2e106099a3fd5ee": "Amazon Biome",
+      "5c9a55b1c88eaf000187b0435c9bd04ae2e106099a3fd5ee": "Image Mosaic - 2000/2018"
+    },
+    "5cd46155aa127a00017de863" : {
+      "name": " Pampa",
+      "5cd4602daa127a00017de8605cd46155aa127a00017de863": "Biome Border",
+      "5cd46016aa127a00017de85f5cd46155aa127a00017de863": "Deforestation Mask up to 2016",
+      "5cd4602daa127a00017de8615cd46155aa127a00017de863": "Hydrography",
+      "5cd4602daa127a00017de8625cd46155aa127a00017de863": "Cloud - 2018",
+      "5cd4602daa127a00017de8635cd46155aa127a00017de863": "Yearly Deforestation - 2018",
+      "5d6d65b9eaee2e0001436f665cd46155aa127a00017de863": "Image Mosaic - 2016 e 2018"
+    },
+    "5cd460faaa127a00017de861" : {
+        "name": " Pantanal",
+        "5cd45fffaa127a00017de85e5cd460faaa127a00017de861": "Biome Border",
+        "5cd46876aa127a00017de8655cd460faaa127a00017de861": "Deforestation Mask up to 2016",
+        "5d6d6661eaee2e0001436f665cd460faaa127a00017de861": "Hydrography",
+        "5d6d6661eaee2e0001436f655cd460faaa127a00017de861": "Cloud - 2018/2019",
+        "5d6d6661eaee2e0001436f645cd460faaa127a00017de861": "Yearly Deforestation - 2018/2019",
+        "5d6d6661eaee2e0001436f675cd460faaa127a00017de861": "Image Mosaic - 2016, 2018 e 2019"
+    },
+    "5c8107880cf423000144ebd8": {
+      "name": " Cerrado",
+      "5c49f7391a21020001cd663e5c8107880cf423000144ebd8": "States",
+      "5c49f7791a21020001cd66405c8107880cf423000144ebd8": "Biome Border",
+      "5c49f78e1a21020001cd66415c8107880cf423000144ebd8": "Counties",
+      "5c8105e60cf423000144ebd75c8107880cf423000144ebd8": "Deforestation Notices since 2018"
+    },
+    "5dfa348ffc7ea6096c1bce18" : {
+      "name": " Caatinga",
+      "5dfa3729fc7ea6096c1bce215dfa348ffc7ea6096c1bce18": "Biome Border",
+      "5dfa3729fc7ea6096c1bce265dfa348ffc7ea6096c1bce18": "Hydrography",
+      "5dfa3729fc7ea6096c1bce275dfa348ffc7ea6096c1bce18": "Cloud - 2016",
+      "5dfa3729fc7ea6096c1bce285dfa348ffc7ea6096c1bce18": "Deforestation Mask up to 2016"
+    },
+    "5dfa348ffc7ea6096c1bce19" : {
+        "name": " Mata Atlântica",
+        "5dfa3729fc7ea6096c1bce225dfa348ffc7ea6096c1bce19": "Biome Border",
+        "5dfa3729fc7ea6096c1bce235dfa348ffc7ea6096c1bce19": "Hydrography",
+        "5dfa3729fc7ea6096c1bce245dfa348ffc7ea6096c1bce19": "Cloud - 2016",
+        "5dfa3729fc7ea6096c1bce255dfa348ffc7ea6096c1bce19": "Deforestation Mask up to 2016"
+    },
+    "5c810c820cf423000144ebda": {
+      "name": " Legal Amazon",
+      "5c810a980cf423000144ebd95c810c820cf423000144ebda": "Deforestation Notices since 2015",
+      "5c49f6ba1a21020001cd663d5c810c820cf423000144ebda": "Legal Amazon"
+    },
+    "control3": "Others Layers",
+    "noLegend": "To see legends, you should enable layers."
+  },
+  "tools": {
+    "resetMap": "Reset Map",
+    "featureInfo": "Feature Info",
+    "showCoordinates": "Coordinates",
+    "fullscreen": "Fullscreen",
+    "download": "Downloads",
+    "addLayer": "Add Others Layers",
+    "undo": "Zoom undo",
+    "redo": "Zoom redo",
+    "notice": "Do not show again",
+    "layerOptions": "Layer Tools",
+    "basicInfo": "Basic Info",
+    "metadata": "Metadata",
+    "dashboard": "Graphics",
+    "transparency": "Transparency",
+    "removeLayer": "Remove Layer",
+    "legend": "Legend",
+    "timeDimension": "Time Dimension",
+    "fitBounds": "Fit Bounds"
+  },
+  "contact": {
+    "title": "Send suggestions or questions to"
+  },
+  "timeseries" : {
+      "title": "Time series using SITS package functions",
+      "service": "Service",
+      "coverage": "Coverage",
+      "bands": "Bands",
+      "preFilter": "Pre-filter SATVEG",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "submit": "Execute!",
+      "filter": "Filter",
+      "filters": "Filters",
+      "noFilter": "No-filter",
+      "whitParameters": "Whittaker parameters",
+      "sgParameters": "Savitsky-Golay parameters",
+      "applyFilter": "Apply filter!",
+      "point": "Point",
+      "polygon": "Polygon",
+      "timeSeries": "Time Series",
+      "points": "Points",
+      "deleteRows": "Delete Rows",
+      "clearTable": "Clear Table",
+      "info": "This page shows the application using OpenCPU. For more information please access ",
+      "table": "Table",
+      "graphic": "Chart",
+      "infouse": "Uses the control painel to select the options of origin of the timeseries and the map's tools to define a location or area used for obtaining the series."
+  },
+  "matPaginatorIntl": {
+    "itemsPerPage":"Itens per page:",
+    "nextPage":"Next page",
+    "prevPage":"Previous page",
+    "firstPage":"First page",
+    "lastPage":"Last page",
+    "of" : "of"
+  }
+}

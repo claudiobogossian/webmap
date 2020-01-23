@@ -1,0 +1,196 @@
+{
+    "app" : {
+        "title": "Terrabrasilis",
+        "label": "Cerrado",
+        "deforestation": "PRODES (Desmatamento)",
+        "alerts": "DETER (Avisos)",
+        "text": "O TerraBrasilis é uma plataforma desenvolvida pelo INPE para organização, acesso e uso através de um portal web dos dados geográficos produzidos pelos seus programas de monitoramento ambiental"
+    },
+    "capabilitydialog": {
+        "title": "Pesquisa em serviços WMS",
+        "capabilitiesFailure" : "A requisição falhou, revise a URL e tente novamente.",
+        "capabilitiesError" : "Falhou ao interpretar a resposta do servidor. Detalhe:",
+        "source" : "Fonte de dado",
+        "filter" : "Filtro",
+        "table" : {
+            "name":"Nome",
+            "title":"Título",
+            "metadata":"Metadado",
+            "addlayer":"Adicionar ao mapa"
+        }
+    },
+    "dialog": {
+        "text": "Informações Gerais",
+        "accessDataBtn" : "Acesso aos Dados",
+        "downloadBtn" : "Download",
+        "metadataBtn" : "Metadado",
+        "disclaimer1" : "Atenção, este é um dado preliminar.",
+        "disclaimer2" : "O dado definitivo será consolidado após conclusão dos mapeamentos previstos para os anos que compõem a série histórica de 2004 a 2018.",
+        "disclaimer3" : "Atente para as informações descritas",
+        "disclaimer4" : "no metadado da camada"
+    },
+    "menu" : {
+        "analyses": {
+            "name": "Gráficos",
+            "option1" : "PRODES (Desmatamento)",
+            "option2" : "DETER (Avisos)",
+            "option3" : "Uso e cobertura da terra",
+            "option4" : "Desmatamento Amazônia",
+            "option5" : "Avisos Amazônia"
+        },
+        "about": "Sobre",
+        "contact": "Contato",
+        "help": "Ajuda",
+        "login": "Acesso",
+        "map": {
+            "name": "Mapas",
+            "option1" : "PRODES (Desmatamento)",
+            "option2" : "DETER (Avisos)"
+
+        }
+    },
+    "layerControl" : {
+        "baselayer" : {
+            "warning" : "Estas imagens não foram usadas para o mapeamento de desmatamento"
+        },
+        "control1" : "Baselayers",
+        "5c40fe3a0e9b2a14264e03a7" : {
+            "name": " Cerrado",
+            "5c49f7391a21020001cd663e5c40fe3a0e9b2a14264e03a7": "Estados",
+            "5c49f7791a21020001cd66405c40fe3a0e9b2a14264e03a7": "Limite do Bioma",
+            "5c49f78e1a21020001cd66415c40fe3a0e9b2a14264e03a7": "Municípios",
+            "5c5dc500c4267d00012843245c40fe3a0e9b2a14264e03a7": "Mosaico de Imagens - 2000/2019",
+            "5c65c03fc4267d00012843255c40fe3a0e9b2a14264e03a7": "Desmatamento Anual - 2000/2018"
+        },
+        "5c40fdce0e9b2a14264e03a6" : {
+            "name": " Amazônia Legal",
+            "5c49f5901a21020001cd66375c40fdce0e9b2a14264e03a6": "Floresta - 2016/2018",
+            "5c49f5bc1a21020001cd66385c40fdce0e9b2a14264e03a6": "Desmatamento Anual - 2008/2018",
+            "5c49f5df1a21020001cd66395c40fdce0e9b2a14264e03a6": "Máscara de Desmatamento - 1988/2007",
+            "5c49f61b1a21020001cd663a5c40fdce0e9b2a14264e03a6": "Hidrografia",
+            "5c49f6761a21020001cd663b5c40fdce0e9b2a14264e03a6": "Não Floresta",
+            "5c49f6a51a21020001cd663c5c40fdce0e9b2a14264e03a6": "Nuvem - 2016/2018",
+            "5c49f6ba1a21020001cd663d5c40fdce0e9b2a14264e03a6": "Amazonia Legal",
+            "5c9a55b1c88eaf000187b0435c40fdce0e9b2a14264e03a6": "Mosaico de Imagens - 2000/2018"
+        },
+        "5c9bd04ae2e106099a3fd5ee" : {
+            "name": " Amazônia",
+            "5c9bce7b6d9f9d00010068c35c9bd04ae2e106099a3fd5ee": "Floresta - 2016/2018",
+            "5c9bcc136d9f9d00010068c05c9bd04ae2e106099a3fd5ee": "Máscara de Desmatamento - 1988/2007",
+            "5c9bcf646d9f9d00010068c65c9bd04ae2e106099a3fd5ee": "Desmatamento Anual - 2008/2018",
+            "5c9bceb06d9f9d00010068c45c9bd04ae2e106099a3fd5ee": "Hidrografia",
+            "5c9bcef16d9f9d00010068c55c9bd04ae2e106099a3fd5ee": "Não Floresta",
+            "5c9bcdfb6d9f9d00010068c25c9bd04ae2e106099a3fd5ee": "Nuvem - 2016/2018",
+            "5c9bcd576d9f9d00010068c15c9bd04ae2e106099a3fd5ee": "Limite do Bioma",
+            "5c9a55b1c88eaf000187b0435c9bd04ae2e106099a3fd5ee": "Mosaico de Imagens - 2000/2018"
+        },
+        "5cd46155aa127a00017de863" : {
+            "name": " Pampa",
+            "5cd4602daa127a00017de8605cd46155aa127a00017de863": "Limite do Bioma",
+            "5cd46016aa127a00017de85f5cd46155aa127a00017de863": "Máscara de Desmatamento até 2016",
+            "5cd4602daa127a00017de8615cd46155aa127a00017de863": "Hidrografia",
+            "5cd4602daa127a00017de8625cd46155aa127a00017de863": "Nuvem - 2018",
+            "5cd4602daa127a00017de8635cd46155aa127a00017de863": "Desmatamento Anual - 2018",
+            "5d6d65b9eaee2e0001436f665cd46155aa127a00017de863": "Mosaico de Imagens - 2016 e 2018"
+        },
+        "5cd460faaa127a00017de861" : {
+            "name": " Pantanal",
+            "5cd45fffaa127a00017de85e5cd460faaa127a00017de861": "Limite do Bioma",
+            "5cd46876aa127a00017de8655cd460faaa127a00017de861": "Máscara de Desmatamento até 2016",
+            "5d6d6661eaee2e0001436f665cd460faaa127a00017de861": "Hidrografia",
+            "5d6d6661eaee2e0001436f655cd460faaa127a00017de861": "Nuvem - 2018/2019",
+            "5d6d6661eaee2e0001436f645cd460faaa127a00017de861": "Desmatamento Anual - 2018/2019",
+            "5d6d6661eaee2e0001436f675cd460faaa127a00017de861": "Mosaico de Imagens - 2016, 2018 e 2019"
+        },
+        "5c8107880cf423000144ebd8" : {
+            "name": " Cerrado",
+            "5c49f7391a21020001cd663e5c8107880cf423000144ebd8": "Estados",
+            "5c49f7791a21020001cd66405c8107880cf423000144ebd8": "Limite do Bioma",
+            "5c49f78e1a21020001cd66415c8107880cf423000144ebd8": "Municípios",
+            "5c8105e60cf423000144ebd75c8107880cf423000144ebd8": "Avisos de Desmatamento à partir de 2018"
+        },
+        "5dfa348ffc7ea6096c1bce18" : {
+            "name": " Caatinga",
+            "5dfa3729fc7ea6096c1bce215dfa348ffc7ea6096c1bce18": "Limite do Bioma",
+            "5dfa3729fc7ea6096c1bce265dfa348ffc7ea6096c1bce18": "Hidrografia",
+            "5dfa3729fc7ea6096c1bce275dfa348ffc7ea6096c1bce18": "Nuvem - 2016",
+            "5dfa3729fc7ea6096c1bce285dfa348ffc7ea6096c1bce18": "Máscara de Desmatamento até 2016"
+        },
+        "5dfa348ffc7ea6096c1bce19" : {
+            "name": " Mata Atlântica",
+            "5dfa3729fc7ea6096c1bce225dfa348ffc7ea6096c1bce19": "Limite do Bioma",
+            "5dfa3729fc7ea6096c1bce235dfa348ffc7ea6096c1bce19": "Hidrografia",
+            "5dfa3729fc7ea6096c1bce245dfa348ffc7ea6096c1bce19": "Nuvem - 2016",
+            "5dfa3729fc7ea6096c1bce255dfa348ffc7ea6096c1bce19": "Máscara de Desmatamento até 2016"
+        },
+        "5c810c820cf423000144ebda" : {
+            "name": " Amazônia Legal",
+            "5c810a980cf423000144ebd95c810c820cf423000144ebda": "Avisos de Desmatamento à partir de 2015",
+            "5c49f6ba1a21020001cd663d5c810c820cf423000144ebda": "Amazonia Legal"
+        },
+        "control3" : "Outras Camadas",
+        "noLegend" : "Para ver legendas, você deve ativar camadas."
+    },
+    "tools" : {
+        "resetMap": "Restaurar Mapa",
+        "featureInfo": "Informações da camada",
+        "showCoordinates": "Coordenadas",
+        "fullscreen": "Tela ampliada",
+        "download": "Downloads",
+        "addLayer": "Adicionar Outras Camadas",
+        "undo": "Desfazer zoom",
+        "redo": "Refazer zoom",
+        "notice": "Não mostrar novamente",
+        "layerOptions": "Ferramentas da Camada",
+        "basicInfo": "Informação Básica",
+        "metadata": "Metadados",
+        "dashboard": "Gráficos",
+        "transparency": "Transparência",
+        "removeLayer": "Excluir Camada",
+        "legend": "Legenda",
+        "timeDimension": "Dimensão temporal",
+        "fitBounds": "Zoom para Camada",
+        "layerFilter": "Filtrar"
+    },
+    "filter" : {
+        "title":"Filtro",
+        "placeholder": "Escolha uma data"
+    },
+    "contact" : {
+        "title":"Envie sugestões ou perguntas para"
+    },
+    "timeseries" : {
+        "title": "Série temporal usando funções do pacote SITS",
+        "service": "Serviço",
+        "coverage": "Cobertura",
+        "bands": "Bandas",
+        "preFilter": "Pré-filtro SATVEG",
+        "startDate": "Data Inicial",
+        "endDate": "Data Final",
+        "submit": "Consultar!",
+        "filter": "Filtro",
+        "filters": "Filtros",
+        "noFilter": "Sem-filtro",
+        "whitParameters": "Parâmetros do Whittaker",
+        "sgParameters": "Parâmetros do Savitsky-Golay",
+        "applyFilter": "Aplicar filtro!",
+        "point": "Ponto",
+        "polygon": "Polígono",
+        "timeSeries": "Série Temporal",
+        "points": "Pontos",
+        "deleteRows": "Remover Linhas",
+        "clearTable": "Limpar Tabela",
+        "info": "Esta página mostra uma aplicação usando OpenCPU. Para mais informações acesse ",
+        "table": "Tabela",
+        "graphic": "Gráfico",
+        "infouse": "Use o painel de controle para selecionar as opções de origem da série temporal e as ferramentas do mapa para definir uma localização ou área usada na obtenção das séries."
+    },
+    "matPaginatorIntl": {
+        "itemsPerPage":"Itens por página:",
+        "nextPage":"Proxima página",
+        "prevPage":"Página anterior",
+        "firstPage":"Primeira página",
+        "lastPage":"Última página",
+        "of" : "de"
+    }
+}
